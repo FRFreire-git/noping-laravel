@@ -21,6 +21,7 @@ Projeto de API RESTful realizado para a NOPING. Feito em Laravel 8 com a adiçã
 ## Realizando os testes
 
 1. php artisan test;
+2. php artisan migrate:refresh --seed (para restaurar os dados excluídos durante os testes);
 
 OBS: o teste de criação de registros não pude concluir a tempo mas me esforcei pra colocar o máximo que sei sobre teste unitário nesse projeto.
 
