@@ -22,11 +22,11 @@ class ClientTableSeeder extends Seeder
             0 => 
             array (
                 'CPF' => '16410954077',
-                'NAME' => 'KELVIN BISERRA',
+                'NAME' => 'KELVIN PEREIRA BISERRA',
                 'DT_BIRTH' => '1997-04-21',
                 'SEX' => 'MASCULINO',
                 'created_at' => NULL,
-                'updated_at' => NULL,
+                'updated_at' => '2022-01-28 04:37:44',
             ),
             1 => 
             array (
