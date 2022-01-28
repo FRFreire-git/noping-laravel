@@ -43,7 +43,7 @@ class SaleController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'cpf' => 'required|unique',
+            'cpf' => 'required|min:11|max:11',
             'bar_code' => 'required'
         ]);
 

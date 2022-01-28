@@ -43,8 +43,8 @@ class ClientController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'cpf' => 'required',
-            'name' => 'required',
+            'cpf' => 'required|min:11|max:11',
+            'name' => 'required|min:5|max:50',
             'dt_birth' => 'required',
             'sex' => 'required'
         ]);

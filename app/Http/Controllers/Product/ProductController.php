@@ -43,8 +43,8 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'bar_code' => 'required',
-            'title' => 'required',
+            'bar_code' => 'required|min:5|max:5',
+            'title' => 'required|min:20|max:50',
             'release_dt' => 'required',
             'cover' => 'required',
             'price' => 'required'

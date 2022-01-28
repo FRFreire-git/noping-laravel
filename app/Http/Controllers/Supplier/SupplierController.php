@@ -43,9 +43,9 @@ class SupplierController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'cnpj' => 'required',
-            'name' => 'required',
-            'email' => 'required',
+            'cnpj' => 'required|min:14|max:14',
+            'name' => 'required|min:5|max:50',
+            'email' => 'required|email',
             'logo' => 'required'
         ]);
 
