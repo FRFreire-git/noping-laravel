@@ -25,6 +25,6 @@ Projeto de API RESTful realizado para a NOPING. Feito em Laravel 8 com a adiçã
 OBS: o teste de criação de registros não pude concluir a tempo mas me esforcei pra colocar o máximo que sei sobre teste unitário nesse projeto.
 
 
-## License
+## Licença
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
