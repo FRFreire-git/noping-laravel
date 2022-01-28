@@ -4,6 +4,14 @@
 
 Projeto de API RESTful realizado para a NOPING. Feito em Laravel 8 com a adição de algumas bibliotecas como: Sanctum, Migration, Reliese, iSeed e PHPUnit:
 
+Tabelas: 
+    - Supplier;
+    - Client;
+    - Product;
+    - Sale;
+
+Visando aumentar a estrutura e legitimidade do código, testes foram implementados (PHPUnit).
+
 - [Sanctum](https://laravel.com/docs/8.x/sanctum).
 - [Migration](https://github.com/oscarafdev/migrations-generator).
 - [Reliese](https://github.com/reliese/laravel).
